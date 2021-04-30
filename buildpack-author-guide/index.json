@@ -1,0 +1,57 @@
+{
+  "title": "Buildpack Author's Guide",
+  "description": "This is a step-by-step tutorial for creating a Cloud Native Buildpack using simple bash scripts.",
+  "difficulty": "Beginner",
+  "time": "30",
+  "details": {
+    "steps": [
+      {
+        "title": "Setup local environment",
+        "text": "setup-local-environment.md"
+      },
+      {
+        "title": "Building blocks of a Cloud Native Buildpack",
+        "text": "building-blocks-cnb.md"
+      },
+      {
+        "title": "Detecting your application",
+        "text": "detection.md"
+      },
+      {
+        "title": "Building your application",
+        "text": "build-app.md"
+      },
+      {
+        "title": "Make your application runnable",
+        "text": "make-app-runnable.md"
+      },
+      {
+        "title": "Specify multiple process types",
+        "text": "specify-multiple-process-types.md"
+      },
+      {
+        "title": "Improving performance with caching",
+        "text": "caching.md"
+      },
+      {
+        "title": "Making your buildpack configurable",
+        "text": "make-buildpack-configurable.md"
+      },
+      {
+        "title": "Adding Bill-of-Materials",
+        "text": "adding-bill-of-materials.md"
+      }
+    ],
+    "intro": {
+      "courseData": "background.sh",
+      "code": "foreground.sh",
+      "text": "intro.md"
+    }
+  },
+  "environment": {
+    "uilayout": "vscode-terminal-split"
+  },
+  "backend": {
+    "imageid": "ubuntu:2004"
+  }
+}
