@@ -2,7 +2,7 @@
   "title": "Buildpack Author's Guide",
   "description": "This is a step-by-step tutorial for creating a Cloud Native Buildpack using simple bash scripts.",
   "difficulty": "Beginner",
-  "time": "30",
+  "time": "90",
   "details": {
     "steps": [
       {
